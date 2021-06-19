@@ -17,12 +17,12 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🧑‍🔬Owner🧑‍🔬", url="https://t.me/AkFrolicx"),
+                        InlineKeyboardButton("📽️Updates📽️", url="https://t.me/AkFrolicx_Here"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                            "⚜️ MAIN CHANNELI ⚜️", url="https://t.me/Ssm_Cinemas")
                     ]
                 ]
             ),
@@ -40,12 +40,12 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🧑‍🔬Owner🧑‍🔬", url="https://t.me/AkFrolicx"),
+                        InlineKeyboardButton("📽️Updates📽️", url="https://t.me/AkFrolicx_Here"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")
+                            "⚜️ Main Channel ⚜️", url="https://t.me/Ssm_Cinemas")
                     ]
                 ]
             ),
@@ -63,12 +63,12 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
-                        InlineKeyboardButton("START", callback_data="start_data"),
+                        InlineKeyboardButton("🧑‍🔬 Owner 🧑‍🔬", url="https://t.me/AkFrolicx"),
+                        InlineKeyboardButton("📽️ Updates 📽️", url="https://t.me/AkFrolicx_Here"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE", url="https://github.com/TroJanzHEX/Auto-Filter-Bot-V2")
+                            "🧿 Creater 🧿", url="https://t.me/AkFrolicx")
                     ]
                 ]
             ),
